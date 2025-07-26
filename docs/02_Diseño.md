@@ -49,4 +49,3 @@ La aplicación sigue el patrón Modelo–Vista–Controlador (MVC):
 - `controllers.py` → conecta la vista con los modelos, gestiona acciones del usuario.
 - `main.py` → archivo principal que inicializa todo.
 
-**Organización de carpetas:**

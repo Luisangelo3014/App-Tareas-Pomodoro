@@ -24,13 +24,19 @@ El usuario puede interactuar con la aplicación en cuatro módulos principales:
 
 `Diagrama de clases`
 
-![Casos de uso](Diagrams/diagrama_clases.jpg)
+![Clases](Diagrams/diagrama_clases.jpg)
 
 Este diagrama representa la estructura interna de las clases en la aplicación, usando un enfoque orientado a objetos.
 
 - `Tarea` es la entidad principal que contiene todos los atributos y métodos relacionados con una tarea.
 - `PomodoroTimer` administra la lógica de tiempo y depende de una tarea activa.
 - `Estadistica` se encarga de calcular y representar datos de productividad a partir de las tareas completadas.
+
+`Diagrama E-R`
+
+![Entidad-Relación](Diagrams/ER.jpg)
+
+Este diagrama representa la estructura de la Base de datos que será implementada en SQLite
 
 ---
 
